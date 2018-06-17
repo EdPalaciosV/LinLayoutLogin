@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:background="#47a6f9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:hint="Correo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hintColor"
+        android:hint="Contraseña"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:theme="@style/checkbox"
+        android:text="Recordar contraseña"
+        android:textColor="@color/hintColor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAceptar"
+        android:textColor="#ffffff"
+        android:text="Aceptar"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#147dbf"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="No account yet?.Create one"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
